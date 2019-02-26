@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mint-SignUp-Page</title>
+    <title>Mint-SignUp-Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<section>
+    <header>
+        <div class="header-right">
+
+        </div>
+    </header>
+	<section class="main-container">
 		<div class="logo">
-			
+            <img src="images/intuit-logo.png" alt="intuit-logo">
 		</div>
 		<div class="form-area">
 			<h1>One Account.</h1>
@@ -14,21 +20,20 @@
 
 			<p>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a><</p>
 
-			<form>
-					<label>Email address</label>
-					<input type="Email" name="" class="">
-				
-					<label>Phone (recommended)</label>
-					<input type="number" name="" class="">
-					Standard call, messaging or data rates may apply.
-				
-					<label>Password</label>
-					<input type="Password" name="" class="">
-				
-					<input type="button" name="" class="">
-				
-					<p>By clicking Create Account, you agree to our License Agreement and have read and acknowledge our <a href="">Privacy Statement.</a></p>
-				
+			<form action="#" method="POST">
+                <label class="field-lbl">Email address</label>
+                <input type="Email" name="" class="field">
+            
+                <label class="field-lbl">Phone (recommended)</label>
+                <input type="number" name="" class="field">
+                Standard call, messaging or data rates may apply.
+            
+                <label class="field-lbl">Password</label>
+                <input type="Password" name="" class="field">
+            
+                <input type="button" value="Create Account" class="form-btn">
+            
+                <p class="liscence">By clicking Create Account, you agree to our License Agreement and have read and acknowledge our <a href="">Privacy Statement.</a></p>
 			</form>
 		</div>
 	</section>
